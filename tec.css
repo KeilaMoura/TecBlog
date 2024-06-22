@@ -1,0 +1,119 @@
+/*LIMPAR FORMATAÇÕES PADRÕES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em; /*vale 16 pixels*/
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+    background: #e6e6e6;
+
+}
+
+/*LAYOUT*/
+
+#cabeçalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+#logo{
+    padding: 10px;
+
+}
+
+#menu{
+    padding: 10px;
+    
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+
+}
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#postagens{
+    width: 660px;
+    background-color: white;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#area-lateral{
+    width: 210px;
+    background-color:#fff9f9;
+    float: right;
+    padding: 15px;
+
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+    width: 630px;
+}
+
+h2{
+    color: #f7b600;;
+}
+
+.datapostagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4 ;
+    padding-bottom: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.conteudolateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+
+h3{
+    background-color: #cfc2c2;
+   color: #4e4e4e;
+   padding: 5px;
+}
+
+.postagemlateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+
+}
+
+/*FORMATAÇÃO DE LINKS*/
+#cabeçalho a:link, #cabeçalho a:visited{ /*formatando links do cabeçalho*/
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+#cabeçalho a:hover{
+    background-color: white;
+    color: #f7b600;
+}
+
